@@ -2,7 +2,7 @@ import React from 'react'
 import {Toolbar} from '../src'
 
 export default () => (
-    <Toolbar bg='black' color='white'>
+    <Toolbar p={2} bg='black' color='white'>
       Hello
     </Toolbar>
   )
