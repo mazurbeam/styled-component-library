@@ -1,8 +1,8 @@
 import React from 'react'
-import { TagInput, Box } from '../src'
+import { TagInput, Flex } from '../src'
 
 export default () => (
-  <Box m={5} p={5}>
+  <Flex m={5} p={5} alignItems='center'>
     <TagInput />
-  </Box>
+  </Flex>
 )
